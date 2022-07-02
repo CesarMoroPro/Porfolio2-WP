@@ -1,0 +1,11 @@
+{
+    "name": "cesar/porfolio2-wp",
+    "description": "Portfolio #2, made with WordPress in Developer Mode",
+    "authors": [
+        {
+            "name": "CesarMoro",
+            "email": "cesar-moro@outlook.fr"
+        }
+    ],
+    "require": {}
+}
