@@ -22,7 +22,8 @@
     ],
     "require": {
         "johnpbloch/wordpress": "^6.0",
-        "wpackagist-plugin/akismet": "^4.2"
+        "wpackagist-plugin/akismet": "^4.2",
+        "wpackagist-theme/avant-garde": "^1.2"
     },
     "config": {
         "allow-plugins": {
