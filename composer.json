@@ -7,5 +7,15 @@
             "email": "cesar-moro@outlook.fr"
         }
     ],
-    "require": {}
+    "extra": {
+        "wordpress-install-dir" : "wp"
+    },
+    "require": {
+        "johnpbloch/wordpress": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
 }
