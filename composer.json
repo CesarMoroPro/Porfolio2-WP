@@ -10,12 +10,24 @@
     "extra": {
         "wordpress-install-dir" : "wp"
     },
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
     "require": {
-        "johnpbloch/wordpress": "^6.0"
+        "johnpbloch/wordpress": "^6.0",
+        "wpackagist-plugin/akismet": "^4.2"
     },
     "config": {
         "allow-plugins": {
-            "johnpbloch/wordpress-core-installer": true
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
         }
     }
 }
